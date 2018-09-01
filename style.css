@@ -1,0 +1,21 @@
+a:link{
+	color: #8ca9ab;
+	text-decoration: none;
+	}
+a:hover{
+	color: #8ca9ab;
+	text-decoration: bold;
+	}
+body {
+	font-family: Verdana, sans-serif;
+	}
+h1 {
+	font-family: Verdana, sans-serif;
+	color: #68A0B0;
+	background-color: #efefef;
+
+	}
+#footer{
+	text-align: center;
+	background-color: #efefef;
+	}	

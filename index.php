@@ -7,7 +7,7 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title href="pngFiles/horizontalMIM.png">Make. Inspire. Motivate. - MIM</title>
+	<title>Make. Inspire. Motivate. - MIM</title>
 	<link href="style.css" type="text/css" rel="stylesheet"/>
 </head>
 <body>
@@ -22,16 +22,16 @@
 			<li class="nav-item dropdown">
 				<a class="nav-link dropdown-toggle" href="/projects" id="navbarDropDownMenuProjects" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
 				<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuProjects">
-					<a class="dropdown-item" href="#">Game Programming</a>
-					<a class="dropdown-item" href="#">Algorithms & Artificial Intelligence</a>
-					<a class="dropdown-item" href="#">Database & Networking</a>
+					<a class="dropdown-item" href="https://github.com/adrialarmijo/CPSC489_Project">Game Programming</a>
+					<a class="dropdown-item" href="https://github.com/adrialarmijo/CPSC481-Project">Algorithms & Artificial Intelligence</a>
+					<a class="dropdown-item" href="http://pt23.net">Database & Networking</a>
 				</div>
 			</li>
 			<li class ="nav-item dropdown">
 				<a class="nav-link dropdown-toggle" href="#" id="navbarDropDownMenuAboutMe" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Me</a>
 				<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuAboutMe">
-					<a class="dropdown-item" href="/about">Resume</a>
-					<a class="dropdown-item" href="#">Interests</a>
+					<a class="dropdown-item" href="/about/resume.html">Resume</a>
+					<a class="dropdown-item" href="https://www.facebook.com/adrial.armijo">Interests</a>
 				</div>
 			</li>
 		</ul>

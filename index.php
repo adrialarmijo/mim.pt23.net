@@ -7,14 +7,14 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Make. Inspire. Motivate. - MIM</title>
+	<title href="pngFiles/horizontalMIM.png">Make. Inspire. Motivate. - MIM</title>
 	<link href="style.css" type="text/css" rel="stylesheet"/>
 </head>
 <body>
 
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light"> 
-	<a class="navbar-brand" href="">MIM</a>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<a class="navbar-brand" href="/">MIM</a>
 		<ul class="navbar-nav">
 			<li class="nav-item active">
 				<a class="nav-link" href="/">Home<span class="sr-only">(current)</span></a>
@@ -27,7 +27,7 @@
 					<a class="dropdown-item" href="#">Database & Networking</a>
 				</div>
 			</li>
-			<li>
+			<li class ="nav-item dropdown">
 				<a class="nav-link dropdown-toggle" href="#" id="navbarDropDownMenuAboutMe" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Me</a>
 				<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuAboutMe">
 					<a class="dropdown-item" href="/about">Resume</a>
@@ -38,25 +38,25 @@
 </nav>
 
 <div class="container" style="margin-top:50px">
-	<h1>Adrial Armijo | Software Developer & Information Technology</h1>	
-	<p>I'm <b>Adrial Armijo</b>, born to <b> make, motivate, and inspire</b> through programming</p>
+	<h1>Adrial Armijo | Software Developer & Information Technology</h1>
+	<p>I'm <b>Adrial Armijo</b>, here to <b> make, inspire and motivate</b> through programming</p>
 	<div class="container">
 	<h2>How I can help you</h2>
 		<div class="row">
 			<div class="col-sm-4">
 			<h3>Game Programming</h3>
 			<p>My degree emphasis focused on media and graphics programming.
-			I have experience in the OpenGL rendering library.</p> 
+			I have experience in the OpenGL rendering library.</p>
 			</div>
 			<div class="col-sm-4">
 			<h3>Algorithms & Artificial Intelligence</h3>
 			<p>I have completed various exercises to solve algorithmic problems
-			I have made simple game AIs for competing against.</p> 
+			I have made simple game AIs for competing against.</p>
 			</div>
 			<div class="col-sm-4">
 			<h3>Database & Networking</h3>
 			<p>I have Information Technology work experience in database management
-			I continue to help maintain and assist this site's server and network</p> 
+			I continue to help maintain and assist this site's server and network</p>
 			</div>
 		</div>
 	</div>

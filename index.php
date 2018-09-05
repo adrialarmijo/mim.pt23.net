@@ -44,19 +44,13 @@
 	<h2>How I can help you</h2>
 		<div class="row">
 			<div class="col-sm-4">
-			<h3>Game Programming</h3>
-			<p>My degree emphasis focused on media and graphics programming.
-			I have experience in the OpenGL rendering library.</p>
+				<h3>Game Programming</h3>
 			</div>
 			<div class="col-sm-4">
-			<h3>Algorithms & Artificial Intelligence</h3>
-			<p>I have completed various exercises to solve algorithmic problems
-			I have made simple game AIs for competing against.</p>
+				<h3>Algorithms & Artificial Intelligence</h3>
 			</div>
 			<div class="col-sm-4">
-			<h3>Database & Networking</h3>
-			<p>I have Information Technology work experience in database management
-			I continue to help maintain and assist this site's server and network</p>
+				<h3>Database & Networking</h3>
 			</div>
 		</div>
 	</div>

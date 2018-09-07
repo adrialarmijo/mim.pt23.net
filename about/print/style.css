@@ -2,7 +2,7 @@
 STLYING RIGHTS RESERVED TO:
 https://github.com/mnjul/html-resume/blob/master/style.css
 *******************************************************************************/
-@media print{
+
   @page{
     size: letter portrait;
     margin: 0;
@@ -58,7 +58,7 @@ https://github.com/mnjul/html-resume/blob/master/style.css
     float: left;
     width: var(--main-width);
     padding: 0.25in 0.25in 0 0.25in;
-    font-size: 7pt;
+    font-size: 8pt;
   }
 
   #sidebar{
@@ -155,7 +155,7 @@ https://github.com/mnjul/html-resume/blob/master/style.css
     flex: 0 0 var(--date-block-width);
     padding-top: calc(var(--row-blocks-padding-top) + 2.5pt) !important;
     padding-right: var(--decorator-horizontal-margin);
-    font-size: 7pt;
+    font-size: 7.5pt;
     text-align: right;
     line-height: 1;
   }
@@ -270,7 +270,6 @@ https://github.com/mnjul/html-resume/blob/master/style.css
     font-weight: normal;
     font-style: normal;
     text-decoration: inherit;
-    content: "\f041";
   }
 
   /***** fine-tunes on the lists... *****/
@@ -324,11 +323,11 @@ https://github.com/mnjul/html-resume/blob/master/style.css
     padding-left: 0;
     font-family: "Source Code Pro";
     font-weight: 400;
-    line-height: 1.75;
+    line-height: 2;
   }
 
   #contact li > i{
-    width: 9pt; /* for text alignment */
+    width: 8.5pt; /* for text alignment */
     text-align: right;
   }
 
@@ -337,26 +336,6 @@ https://github.com/mnjul/html-resume/blob/master/style.css
   }
 
   #skills ul{
-    margin: 0.05in 0 0.15in;
+    margin: 0.05in 0.5 0.15in;
     padding: 0;
   }
-
-  #disclaimer{
-    position: absolute;
-    bottom: var(--sidebar-horizontal-padding);
-    right: var(--sidebar-horizontal-padding);
-    font-size: 7.5pt;
-    font-style: italic;
-    line-height: 1.1;
-    text-align: right;
-    color: #777;
-  }
-
-  #disclaimer code{
-    color: #666;
-    font-family: "Source Code Pro";
-    font-weight: 400;
-    font-style: normal;
-  }
-
-}

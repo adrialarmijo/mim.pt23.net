@@ -30,7 +30,7 @@
 			<li class ="nav-item dropdown">
 				<a class="nav-link dropdown-toggle" href="#" id="navbarDropDownMenuAboutMe" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Me</a>
 				<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuAboutMe">
-					<a class="dropdown-item" href="/about/resume.html">Resume</a>
+					<a class="dropdown-item" href="/about">Resume</a>
 					<a class="dropdown-item" href="https://www.facebook.com/adrial.armijo">Interests</a>
 				</div>
 			</li>

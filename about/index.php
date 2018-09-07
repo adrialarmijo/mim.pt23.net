@@ -1,43 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en-US">
   <head>
+    <?php include('../include/head.inc.php');?>
+    <meta name="description" content="Resume Overview">
+    <title>Adrial Armijo - Resume Overview</title>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Resume - Start Bootstrap Theme</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-    <!-- Custom fonts for this template -->
-    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
-    <<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-
-    <!-- Custom styles for this template -->
-    <link href="/about/css/resume.min.css" rel="stylesheet">
+    <!--- Page Specific Resources -->
+    <link rel="stylesheet" href="css/resume_overview.css">
 
   </head>
-
   <body id="page-top">
-
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
         <span class="d-block d-lg-none">Adrial Armijo</span>
         <span class="d-none d-lg-block">
-          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="../pngFiles/bigkitty.png" alt="">
+          <img class="img-profile rounded-circle mx-auto mb-2" src="me.jpg" alt="Profile Picture" >
         </span>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <span class="d-xs-block d-sm-block d-md-block d-lg-none d-xl-none float-right">
+          <img class="img-profile rounded-circle mx-auto mb-2" src="me.jpg" alt="Profile Picture" id="mobileProfilePic">
+        </span>
         <ul class="navbar-nav">
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#about">About</a>
@@ -62,9 +48,8 @@
     </nav>
 
     <div class="container-fluid p-0">
-
       <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
-        <div class="my-auto">
+        <div>
           <h1 class="mb-0">Adrial
             <span class="text-primary">Armijo</span>
           </h1>
@@ -93,11 +78,9 @@
       </section>
 
       <hr class="m-0">
-
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
-        <div class="my-auto">
+        <div>
           <h2 class="mb-5">Experience</h2>
-
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
               <h3 class="mb-0">Information Technology Student Assistant</h3>
@@ -108,7 +91,6 @@
               <span class="text-primary">2018 - present</span>
             </div>
           </div>
-
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
               <h3 class="mb-0">General Merchandise Supervisor, Service Center</h3>
@@ -121,18 +103,33 @@
           </div>
         </div>
       </section>
-
-      <hr class="m-0">
-
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
-        <div class="my-auto">
+        <div>
           <h2 class="mb-5">Education</h2>
-
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
               <h3 class="mb-0">California State University</h3>
               <div class="subheading mb-3">Bachelor of Science</div>
               <div>Computer Science - Media &amp; Game Design</div>
+              <div>
+                <ul>
+                  <li>Relevant electives:</li>
+                  <ul>
+                    <li>CPSC 489 Game Development Project (A)</li>
+                    <li>CPSC 486 Game Programming (B)</li>
+                    <li>CPSC 484 Principles of Computer Graphics (B)</li>
+                    <li>CPSC 386 Intro to Game Design (C)</li>
+                  </ul>
+                  <li>Relevant projects:</li>
+                  <ul>
+                    <li>"Stinky Shoe Clicker" - self-orignated game design, programmed and implemented by myself and small team in python-pygame Geany Ubuntu </li>
+                    <li>"Ball Maze" - self-originated game design, programmed and implemented by myself and one other in C++ using Unreal Engine Windows/Mac and Visual Studio/Xcode</li>
+                    <li>OpenGL Vertex Shader - class project in C++/OpenGL using Geany Ubuntu Matte</li>
+                    <li>OpenGL Camera - class project in C++/OpenGL using Geany Ubuntu Matte</li>
+                    <li>OpenGL projects were submitted using a private student/class github repository</li>
+                  </ul>
+                </ul>
+              </div>
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">2013 - 2018</span>
@@ -140,29 +137,23 @@
           </div>
         </div>
       </section>
-
-      <hr class="m-0">
-
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
-        <div class="my-auto">
+        <div>
           <h2 class="mb-5">Skills</h2>
-
-          <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-          <ul class="list-inline dev-icons">
-            <li class="list-inline-item">
-              <i class="fas fa-comments"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-windows"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-apple"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fas fa-code"></i>
-            </li>
+          <div class="subheading mb-3">Interpersonal</div>
+          <ul>
+            <li>Communication</li>
+            <li>Teamwork</li>
+            <li>Data compiliation &amp; analytics</li>
+            <li>Problem solving</li>
+            <li>Technical troubleshooting</li>
           </ul>
-
+          <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+          <ul>
+            <li>&frac12; year experience PHP, Java Script, HTML, CSS, SQL</li>
+            <li>3+ years Visual C++</li>
+            <li>4+ years Microsoft Office Suite</li>
+          </ul>
           <div class="subheading mb-3">Workflow</div>
           <ul class="fa-ul mb-0">
             <li>
@@ -177,21 +168,15 @@
           </ul>
         </div>
       </section>
-
-      <hr class="m-0">
-
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
-        <div class="my-auto">
+        <div>
           <h2 class="mb-5">Interests</h2>
-          <p>In my spare time I enjoy exploring new sites, my most recent trip was to King's Canyon, CA.</p>
-          <p class="mb-0">When indoors, I worship streaming video services and religously binge shows, I casually enjoy my melee damage role in World of Warcraft, and I spend a large amount of my free time following new technology industry developments within computer hardware.</p>
+          <p>In my spare time I enjoy exploring new sites, my most recent trip was to King's Canyon, CA. where I went camping with my family. The waterfalls there are very peaceful.</p>
+          <p class="mb-0">When indoors, which is most of the time, I worship streaming video services and religously binge shows, I casually enjoy my melee damage role in World of Warcraft, and I spend a large amount of my free time following new technology industry developments within computer hardware.</p>
         </div>
       </section>
-
-      <hr class="m-0">
-
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
-        <div class="my-auto">
+        <div>
           <h2 class="mb-5">Awards &amp; Certifications</h2>
           <ul class="fa-ul mb-0">
             <li>
@@ -202,27 +187,13 @@
               Dell Certified Technician</li>
             <li>
               <i class="fa-li fa fa-trophy text-warning"></i>
-              1<sup>st</sup>
-              Place - CSU Fullerton, Titan Shops - Employee of the Semester 2016</li>
+              CSU Fullerton, Titan Shops - Employee of the Semester 2016</li>
             <li>
               <i class="fa-li fa fa-trophy text-warning"></i>
-              1<sup>st</sup>
-              Place - CSU Fullerton, Titan Shops - Employee of the Month Fall 2015</li>
+              CSU Fullerton, Titan Shops - Employee of the Month Fall 2015</li>
           </ul>
         </div>
       </section>
-
     </div>
-
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Custom scripts for this template -->
-    <script src="js/resume.min.js"></script>
-
   </body>
-
 </html>

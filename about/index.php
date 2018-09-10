@@ -53,11 +53,14 @@
           <h1 class="mb-0">Adrial
             <span class="text-primary">Armijo</span>
           </h1>
-          <div class="subheading mb-5">111 S Van Buren St. · Placentia, CA 92870 · (760) 552-1342 ·
+          <div class="subheading mb-5">Placentia, CA ·
             <a href="mailto:name@email.com">adrial.armijo@gmail.com</a>
           </div>
           <p class="lead mb-5">Enthusiastic upcoming graduate pursuing a position<br>to utilize strong problem-solving &amp; fundamental programming skills<br>for a mutually beneficial industry experience</p>
           <div class="social-icons">
+            <a href="http://mim.pt23.net">
+              <i class="fas fa-home"</i>
+            </a>
             <a href="https://www.linkedin.com/in/adrial-armijo/">
               <i class="fab fa-linkedin-in"></i>
             </a>
@@ -171,8 +174,8 @@
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
         <div>
           <h2 class="mb-5">Interests</h2>
-          <p>In my spare time I enjoy exploring new sites, my most recent trip was to King's Canyon, CA. where I went camping with my family. The waterfalls there are very peaceful.</p>
-          <p class="mb-0">When indoors, which is most of the time, I worship streaming video services and religously binge shows, I casually enjoy my melee damage role in World of Warcraft, and I spend a large amount of my free time following new technology industry developments within computer hardware.</p>
+          <p>In my spare time I enjoy exploring new sights. My most recent trip was to King's Canyon, CA. where I went camping with my family. The waterfalls are very peaceful.</p>
+          <p class="mb-0">When indoors, which is most of the time, I worship streaming video services and religously binge shows, I casually enjoy my melee damage role in World of Warcraft and I spend a large amount of my free time following new technology industry developments within computer hardware.</p>
         </div>
       </section>
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">

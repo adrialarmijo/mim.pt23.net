@@ -63,7 +63,7 @@ p.lead {
   color: #fff !important;
   border-radius: 100%;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 2rem;
   line-height: 3.5rem;
   margin-right: 1rem;
 }
@@ -76,9 +76,6 @@ p.lead {
   background-color: #3673A1;
 }
 
-.dev-icons {
-  font-size: 3rem;
-}
 
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;

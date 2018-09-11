@@ -43,6 +43,9 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../">Back to MIM</a>
+          </li>
         </ul>
       </div>
     </nav>
@@ -58,8 +61,8 @@
           </div>
           <p class="lead mb-5">Enthusiastic upcoming graduate pursuing a position<br>to utilize strong problem-solving &amp; fundamental programming skills<br>for a mutually beneficial industry experience</p>
           <div class="social-icons">
-            <a href="http://mim.pt23.net">
-              <i class="fas fa-home"</i>
+            <a href="/about/print/resume.html">
+              <i class="fas fa-print"></i>
             </a>
             <a href="https://www.linkedin.com/in/adrial-armijo/">
               <i class="fab fa-linkedin-in"></i>
@@ -72,9 +75,6 @@
             </a>
             <a href="https://www.facebook.com/adrial.armijo">
               <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="/about/print/resume.html">
-              <i class="fas fa-print"></i>
             </a>
           </div>
         </div>

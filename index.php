@@ -10,9 +10,6 @@
 
 </head>
 <body>
-	<article>
-		<b>This site is currently under maintanence, please excuse minor bugs!</b>
-	</article>
 	<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
 		<a class="navbar-brand js-scroll-trigger" href="#page-top">
 			<span class="d-block d-lg-none">Make.Inspire.Motivate</span>
@@ -31,7 +28,7 @@
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="/projects" id="navbarDropDownMenuProjects" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuProjects">
-						<a class="dropdown-item" href="">Game Programming</a>
+						<a class="dropdown-item" href="https://github.com/adrialarmijo/CPSC489_Project">Game Programming</a>
 						<a class="dropdown-item" href="https://github.com/adrialarmijo/CPSC481-Project">Algorithms & Artificial Intelligence</a>
 						<a class="dropdown-item" href="http://pt23.net">Database & Networking</a>
 					</div>
@@ -46,37 +43,61 @@
 		</div>
 	</nav>
 	<div class="container-fluid p-0">
-		<section class="home-section p-3 p-lg-5 d-flex d-column">
+		<section class="home-section">
 			<div>
-				<h1 class="mb-0">MIM
-					<span class="text-primary">Make.Inspire.Motivate</span>
-				</h1>
+				<section class = "p-3 p-lg-5 d-flex flexwrap d-column">
+					<h1 class="mb-0">MIM
+						<span class="text-primary">Make.Inspire.Motivate</span>
+					</h1>
+				</section>
 			</div>
-			<section class="home-section p-3 p-lg-5 d-flex d-column">
-				<div class="card" style="width: 18rem;">
-					<img class="card-img-top" src="/about/me.jpg" alt="Adrial">
-					<div class="card-body">
-						<h5 class="card-title">About the Author</h5>
-						<p class="card-text">View a living resume for Adrial Armijo. Printable version is also available through this link, simply click the print icon on the next page.</p>
-						<a href="/about/" class="btn btn-primary">View Resume</a>
+			<section class="home-item p-3 p-lg-5">
+				<div class="card-columns" style="">
+					<div class="card">
+						<img class="card-img-top" src="/about/me.jpg" alt="Adrial">
+						<div class="card-body">
+							<h5 class="card-title">About the Author</h5>
+							<p class="card-text">View a living resume for Adrial Armijo. Printable version is also available through this link, simply click the print icon on the next page.</p>
+							<a href="/about/" class="btn btn-primary">View Resume</a>
+						</div>
+					</div>
+					<div class="card">
+						<img class="card-img-top" src="pngFiles/cuteKnight.jpg" alt="Knight's Tour">
+						<div class="card-body">
+							<h5 class="card-title">Active Projects</h5>
+							<p class="card-text">MIM is currently working on a solution for the Knight's Problem algorithm. This project is built in Java.</p>
+							<a href="https://github.com/adrialarmijo/knightsTour" class="btn btn-primary">View Project</a>
+						</div>
+					</div>
+					<div class="card">
+						<img class="card-img-top" src="pngFiles/github.jpg" alt="MIM Github">
+						<div class="card-body">
+							<h5 class="card-title">More Projects</h5>
+							<p class="card-text">View past projects, including the repository for this webpage!</p>
+							<a href="/about/" class="btn btn-primary">View on Github</a>
+						</div>
 					</div>
 				</div>
 			</section>
 		</section>
 	</div>
 	<div class="container-fluid p-0">
-		<div class="container-fluid p-0">
-				<img class="img-fluid" src="/pngFiles/bigkitty.png" alt="MIM Logo">
-		</div>
-		<section class="home-section p-3 p-lg-5 d-flex d-column" id="mission-statement">
-			<h2 class="mb-5">Mission Statement</h2>
-			<blockquote class="blockquote">
-			<p><b>MIM</b> is created to promote progress towards diversifying minds in our technical industry.</br>As our world moves towards innovation as a service, programmers must learn to expand their reach.</br>We can no longer rely solely on our knowledge to perform work; we must learn to <b>dream</b></p>
-			</blockquote
-		</section>
-	</div>
-	<div id="footer">
-		<p>&copy; Copyright MIM 2018</p>
+		<section class="home-section">
+			<section class="p-3 p-lg-5 d-flex d-column" id="mission-statement">
+				<h2 class="mb-5">Mission Statement</h2>
+				<blockquote class="blockquote">
+					<p><b>MIM</b> is created to promote progress towards diversifying minds in our technical industry.</br>As our world moves towards innovation as a service, programmers must learn to expand their reach.</br>We can no longer rely solely on our knowledge to perform work; we must learn to <b>dream</b></p>
+				</blockquote>
+			</section>
+			<section class="home-item p-3 p-lg-5">
+				<div style="text-align: center">
+						<img class="img-fluid" src="/pngFiles/smallkitty.jpg" alt="MIM Logo" style="max-width: 20rem;">
+				</div>
+				<div id="footer">
+					<p>&copy; Copyright MIM 2018</p>
+				</div>
+			</section>
+	</section>
 	</div>
 </body>
 </html>

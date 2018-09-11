@@ -128,6 +128,8 @@ section.home-section {
 
 section.home-section .home-item .home-date {
   min-width: none;
+  word-wrap: break-word;
+
 }
 
 @media (min-width: 992px) {
@@ -153,6 +155,7 @@ section.home-section .home-item .home-date {
 .text-primary {
   color: #3673A1 !important;
 	font-size: 4rem;
+  word-wrap: break-word;
 }
 
 a {
@@ -165,4 +168,48 @@ a:hover, a:focus, a:active {
 
 #footer{
 	text-align: center;
+}
+
+.btn-primary:hover{
+  color: #fff !important;
+}
+
+.btn-primary:visited {
+  color: #043C66;
+}
+
+.btn-primary, .btn-primary:active{
+    background-color: #FFABA0 !important;
+}
+
+@media (min-width: 34em) {
+    .card-columns {
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+    }
+}
+
+@media (min-width: 48em) {
+    .card-columns {
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+    }
+}
+
+@media (min-width: 62em) {
+    .card-columns {
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+    }
+}
+
+@media (min-width: 75em) {
+    .card-columns {
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
+    }
 }

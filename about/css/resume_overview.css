@@ -76,7 +76,9 @@ p.lead {
   background-color: #3673A1;
 }
 
-
+.social-icons {
+  text-align: center;
+}
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
   letter-spacing: 0.05rem;

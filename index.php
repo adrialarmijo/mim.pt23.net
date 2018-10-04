@@ -31,6 +31,7 @@
 						<a class="dropdown-item" href="https://github.com/adrialarmijo/CPSC489_Project">Game Programming</a>
 						<a class="dropdown-item" href="https://github.com/adrialarmijo/CPSC481-Project">Algorithms & Artificial Intelligence</a>
 						<a class="dropdown-item" href="http://pt23.net">Database & Networking</a>
+						<a class="dropdown-item" href="/kingsCanyon">Other</a>
 					</div>
 				</li>
 				<li class ="nav-item dropdown">

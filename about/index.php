@@ -3,7 +3,7 @@
   <head>
     <?php include('../include/head.inc.php');?>
     <meta name="description" content="Resume Overview">
-    <title>Adrial Armijo - Resume Overview</title>
+    <title>Resume Overview</title>
 
     <!--- Page Specific Resources -->
     <link rel="stylesheet" href="css/resume_overview.css">
@@ -12,7 +12,7 @@
   <body id="page-top">
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <span class="d-block d-lg-none">Adrial Armijo</span>
+        <span class="d-block d-lg-none"></span>
         <span class="d-none d-lg-block">
           <img class="img-profile rounded-circle mx-auto mb-2" src="me.jpg" alt="Profile Picture" >
         </span>
@@ -41,9 +41,6 @@
             <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="../">Back to MIM</a>
           </li>
         </ul>
@@ -51,15 +48,15 @@
     </nav>
 
     <div class="container-fluid p-0">
-      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
-        <div>
+      <section class="resume-section" id="about">
+        <div class="resume-section-content">
           <h1 class="mb-0">Adrial
             <span class="text-primary">Armijo</span>
           </h1>
-          <div class="subheading mb-5">Placentia, CA ·
+          <div class="subheading mb-5">Chino Hills, CA ·
             <a href="mailto:name@email.com">adrial.armijo@gmail.com</a>
           </div>
-          <p class="lead mb-5">Enthusiastic upcoming graduate pursuing a position<br>to utilize strong problem-solving &amp; fundamental programming skills<br>for a mutually beneficial industry experience</p>
+          <p class="lead mb-5">Seeking Web Developer work that allows for implementation of communication, service, and design skills to the programming essentials</p>
           <div class="social-icons">
             <a href="/about/print/resume.html">
               <i class="fas fa-print"></i>
@@ -86,26 +83,39 @@
           <h2 class="mb-5">Experience</h2>
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">Information Technology Student Assistant</h3>
-              <div class="subheading mb-3">CSU Fullerton, Auxiliary Services Corp.</div>
-              <p>Maintain and support end user workspace while navigating ambiguity of continuously developing projects. Assist in data migration and cloud integration for point of sales terminals and enterprise resource planning services. Self-driven learning with an agile problem solving approach.</p>
+              <h3 class="mb-0">Solutions Engineer</h3>
+              <div class="subheading mb-3">Capital Group, Irvine CA</div>
+              <ul>
+                <li>Participate as an active member of an agile team using scrum practices, including the Atlassian Suite (Jira, Confluence, Bamboo) with two-week sprint cycles. Use SCRUM for agile development and participate in team-led solutions, reviewing peer’s code for quality and completeness</li>
+                <li>Participate and quality test during releases as the team project moves through development, staging, and production environments</li>
+                <li>Develop end to end front-end solutions for product feature using Thymeleaf, Javascript, REST API calls with integration of salesforce.com</li>
+                <li>Assist in developing feature enhancement with unit tests for back-end using Java stack and Spring technologies</li>
+                <li>Maintain copy edits on an application, provided by copy editors for legal compliance using HTML/CSS/Typescript in an Angular framework</li>
+              </ul>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">2018 - present</span>
+              <span class="text-primary">March 2019 - present</span>
             </div>
           </div>
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">General Merchandise Supervisor, Service Center</h3>
-              <div class="subheading mb-3">CSU Fullerton, Auxiliary Services Corp., Titan Shops</div>
-              <p>Incorporate bottom line goals to technical environments while maintaining group cohesion and performance.</p>
+              <h3 class="mb-0">Information Technology Student Assistant</h3>
+              <div class="subheading mb-3">CSU Fullerton, Auxiliary Services Corp.</div>
+              <ul>
+                <li>Achieve data migration through getting, compiling, and analyzing data from enterprise resource planning (ERP) solutions and advanced Microsoft Excel formulas</li>
+                <li>Communicate product sales history to senior management through assemble and distribution of legacy system data for migration to DB1 with SQL applications</li>
+                <li>Adapt through attendance of training conference for cloud-based data integration system and apply learned SaaS content to workflow</li>
+                <li>Integrate online ERP solutions to end-user systems through setup, monitor, and maintenance of point of sales (POS) terminals</li>
+                <li>Promote self-growth through maintenance on self-guided progress in each assigned project</li>
+              </ul>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">2014 - 2018</span>
+              <span class="text-primary">November 2018 - March 2019</span>
             </div>
-          </div>
+          </div>        
         </div>
       </section>
+      <hr class="m-0">
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
         <div>
           <h2 class="mb-5">Education</h2>
@@ -118,10 +128,10 @@
                 <ul>
                   <li>Relevant electives:</li>
                   <ul>
-                    <li>CPSC 489 Game Development Project (A)</li>
-                    <li>CPSC 486 Game Programming (B)</li>
-                    <li>CPSC 484 Principles of Computer Graphics (B)</li>
-                    <li>CPSC 386 Intro to Game Design (C)</li>
+                    <li>CPSC 489 Game Development Project</li>
+                    <li>CPSC 486 Game Programming</li>
+                    <li>CPSC 484 Principles of Computer Graphics</li>
+                    <li>CPSC 386 Intro to Game Design</li>
                   </ul>
                   <li>Relevant projects:</li>
                   <ul>
@@ -135,11 +145,12 @@
               </div>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">2013 - 2018</span>
+              <span class="text-primary">August 2013 - December 2018</span>
             </div>
           </div>
         </div>
       </section>
+      <hr class="m-0">
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
         <div>
           <h2 class="mb-5">Skills</h2>
@@ -153,9 +164,10 @@
           </ul>
           <div class="subheading mb-3">Programming Languages &amp; Tools</div>
           <ul>
-            <li>&frac12; year experience PHP, Java Script, HTML, CSS, SQL</li>
-            <li>3+ years Visual C++</li>
-            <li>4+ years Microsoft Office Suite</li>
+            <li>Beginner: Java, Java Stack, Angular, JavaScript</li>
+            <li>Intermediate: C/C++, HTML/CSS</li>
+            <li>Learning: React, React Native, PHP</li>
+            <li>Tools: Spring, Maven, Visual Studio Code, git bash, Microsoft Office Suite</li>
           </ul>
           <div class="subheading mb-3">Workflow</div>
           <ul class="fa-ul mb-0">
@@ -171,32 +183,16 @@
           </ul>
         </div>
       </section>
+      <hr class="m-0">
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
         <div>
           <h2 class="mb-5">Interests</h2>
           <p>In my spare time I enjoy exploring new sights. My most recent trip was to King's Canyon, CA. where I went camping with my family. The waterfalls are very peaceful.</p>
           <p class="mb-0">When indoors, which is most of the time, I worship streaming video services and religously binge shows, I casually enjoy my melee damage role in World of Warcraft and I spend a large amount of my free time following new technology industry developments within computer hardware.</p>
+          <p class="mb-0">I love to build custom PCs, just recently upgraded my previous build.</p>
         </div>
       </section>
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
-        <div>
-          <h2 class="mb-5">Awards &amp; Certifications</h2>
-          <ul class="fa-ul mb-0">
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              Apple Certified Mac Technician</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              Dell Certified Technician</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              CSU Fullerton, Titan Shops - Employee of the Semester 2016</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              CSU Fullerton, Titan Shops - Employee of the Month Fall 2015</li>
-          </ul>
-        </div>
-      </section>
+      <hr class="m-0">     
     </div>
   </body>
 </html>

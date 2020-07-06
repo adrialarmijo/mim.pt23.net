@@ -58,9 +58,13 @@
           </div>
           <p class="lead mb-5">Seeking Web Developer work that allows for implementation of communication, service, and design skills to the programming essentials</p>
           <div class="social-icons">
-            <a href="/about/print/resume.html">
+          <a id="printMe" href="/about/print/resume.html">
               <i class="fas fa-print"></i>
-            </a>
+              <script>
+                var link = document.getElementById('printMe');                   
+                link.download = "AdrialArmijo_web-resume.pdf";             
+            </script> 
+            </a>         
             <a href="https://www.linkedin.com/in/adrial-armijo/">
               <i class="fab fa-linkedin-in"></i>
             </a>
@@ -75,6 +79,7 @@
             </a>
           </div>
         </div>
+        
       </section>
 
       <hr class="m-0">
